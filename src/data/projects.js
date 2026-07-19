@@ -5,7 +5,7 @@ export const projects = [
         description:
         "A modern ecommerce application with product browsing, cart management, authentication, and responsive UI.",
 
-        image: "/projects/shopverse.png",
+        image: "/projects/shopverse.jpg",
 
         technologies: [
         "React",
