@@ -1,10 +1,11 @@
 import React from 'react'
+import profile from "../assets/profile.png"
 
 const Hero = () => {
   return (
-    <div>
+    <>
       Hero
-    </div>
+    </>
   )
 }
 
