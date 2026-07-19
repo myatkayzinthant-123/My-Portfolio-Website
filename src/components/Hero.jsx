@@ -51,7 +51,8 @@ const Hero = () => {
           </a>
 
           <a 
-            href="/cv.pdf"
+            href="/myatkayzinthant_cv.pdf"
+            target='_blank'
             className='border border-blue-600 text-blue-600 px-6 py-3 rounded-lg'  
           >
             Download CV
@@ -61,7 +62,11 @@ const Hero = () => {
 
         {/* SOCIAL */}
         <div className='flex gap-5 mt-8 text-2xl'>
-          <a href="https://github.com/myatkayzinthant-123" target='_blank'>
+          <a 
+            href="https://github.com/myatkayzinthant-123" 
+            target='_blank'
+            rel="noopener noreferrer"  
+          >
             <FaGithub/>
           </a>
         </div>
