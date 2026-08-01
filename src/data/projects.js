@@ -18,11 +18,36 @@ export const projects = [
         "https://github.com/myatkayzinthant-123",
 
         demo:
-        "#"
+        "https://myatkayzinthant-123.github.io/ShopVerse/"
+
+        
     },
 
     {
-        id: 2,
+    id: 2,
+    title: "Movie Search App",
+
+    description:
+    "A movie search application that allows users to search movies, view details, filter by type, manage favorites, and save search history using local storage.",
+
+    image:
+    "/projects/movie-search.png",
+
+    technologies: [
+        "JavaScript",
+        "HTML",
+        "Tailwind CSS",
+        "OMDb API",
+        "Local Storage"
+    ],
+
+    github:
+    "https://github.com/myatkayzinthant-123/movie-search-app",
+
+    demo:
+    "https://myatkayzinthant-123.github.io/movie-search-app/"
+    },{
+        id: 3,
         title: "Realtime Chat Application",
 
         description:
@@ -44,6 +69,6 @@ export const projects = [
 
         demo:
         "#"
-    }
+    },
 
 ]
