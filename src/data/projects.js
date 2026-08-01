@@ -5,7 +5,7 @@ export const projects = [
         description:
         "A modern ecommerce application with product browsing, cart management, authentication, and responsive UI.",
 
-        image: "/projects/shopverse.jpg",
+        image: `${import.meta.env.BASE_URL}projects/shopverse.jpg`,
 
         technologies: [
         "React",
@@ -30,8 +30,8 @@ export const projects = [
     description:
     "A movie search application that allows users to search movies, view details, filter by type, manage favorites, and save search history using local storage.",
 
-    image:
-    "/projects/movie-search.png",
+    image: `${import.meta.env.BASE_URL}projects/movie-search.png`,
+    
 
     technologies: [
         "JavaScript",
@@ -54,7 +54,7 @@ export const projects = [
         "A full-stack chat application with authentication, real-time messaging, and Socket.IO communication.",
 
         image:
-        "/projects/chat.png",
+        `${import.meta.env.BASE_URL}projects/chat.png`,
 
         technologies: [
         "React",
