@@ -54,6 +54,27 @@ const ProjectCard = ({project}) => {
             </span>
           ))}
         </div>
+
+        {/* Team Roles */}
+        {project.roles && (
+          <div className="mt-5">
+            <h4 className="font-semibold text-gray-800">
+              Team Roles
+            </h4>
+
+            {project.roles.map((role) => (
+              <p
+                key={role.name}
+                className="text-sm text-gray-600 mt-1"
+              >
+                <span className="font-medium">
+                  {role.title}
+                </span>{" "}
+                {role.name}
+              </p>
+            ))}
+          </div>
+        )}
       </div>
     </Link>
 

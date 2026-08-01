@@ -72,7 +72,7 @@ const ProjectDetail = () => {
       {/* LINKS */}
       <div className='flex gap-5 mt-10'>
         <a 
-          href={project.github}
+          href={project.demo}
           target="_blank"
           rel="noopener noreferrer"
           className='flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg'
@@ -82,7 +82,7 @@ const ProjectDetail = () => {
         </a>
 
         <a 
-          href={project.github}
+          href={project.demo}
           target="_blank"
           rel="noopener noreferrer"
           className='flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg'
