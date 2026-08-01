@@ -22,7 +22,7 @@ export const projects = [
 
   github: "https://github.com/myatkayzinthant-123",
 
-  demo: "https://your-demo-link.com",
+  demo: "https://theheritagemyanmar.com/",
 
   roles: [
     {
