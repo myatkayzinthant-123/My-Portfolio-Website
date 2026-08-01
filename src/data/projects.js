@@ -26,13 +26,13 @@ export const projects = [
 
   roles: [
     {
-      title: "Frontend Developer",
-      name: "Myat Kay Zin Thant",
-    },
-    {
-      title: "Backend Developer",
+      title: "FullStack Developer",
       name: "Zin Min Thet",
     },
+    {
+      title: "Frontend Developer",
+      name: "Myat Kay Zin Thant",
+    }
   ],
 },
     {
