@@ -20,7 +20,11 @@ function App() {
     path: "/projects/:id",
     element: <ProjectDetail/>,
   },
-  ])
+  ],
+    {
+      basename: "/My-Portfolio-Website",
+    }
+)
 
   return (
     <RouterProvider router={router}/>
